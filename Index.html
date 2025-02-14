@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown</title>
+    <link rel="stylesheet" href="./CSS/Style.css" />
+    <link rel="icon" href="./Asset/Picture_Offical.png" />
+  </head>
+  <body>
+    <header class="head">
+      <div class="username">
+        <img class="icon-web" src="./Asset/Picture_Offical.png" alt="image" />
+        <h1 class="title-1">Project: Countdown Clock</h1>
+      </div>
+      <a
+        href="https://github.com/jej3zin/Countdown"
+        target="_blank"
+        class="link-git"
+        ><ion-icon name="logo-github"></ion-icon
+      ></a>
+    </header>
+    <main class="main">
+      <section class="boxclock">
+        <h2 class="title2">jan 01, 2030. 00:00:00 am</h2>
+        <div class="numbers">
+          <div>
+            <!-- Show No. of days -->
+            <span class="days" id="day"></span>
+            <div class="smalltext">Days</div>
+          </div>
+          <div>
+            <!-- Show no. of hours -->
+            <span class="hours" id="hour"></span>
+            <div class="smalltext">Hours</div>
+          </div>
+          <div>
+            <!-- Show no. of minutes -->
+            <span class="minutes" id="minute"></span>
+            <div class="smalltext">Minutes</div>
+          </div>
+          <div>
+            <!-- Show seconds -->
+            <span class="seconds" id="second"></span>
+            <div class="smalltext">Seconds</div>
+          </div>
+        </div>
+      </section>
+      <p id="demo"></p>
+    </main>
+    <footer class="foot"></footer>
+    <script src="./JS/app.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
