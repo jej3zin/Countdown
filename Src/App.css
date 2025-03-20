@@ -15,20 +15,12 @@
 }
 body {
   text-align: center;
-  background: #00ecb9;
   font-family: sans-serif;
   font-weight: 100;
+  background: url(../');
 }
 /* Header & Content */
-.head {
-  height: 10vh;
-  padding: 1rem 7rem;
-  color: var(--Col-Gray);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--Backg);
-}
+
 .username {
   display: flex;
   justify-content: center;

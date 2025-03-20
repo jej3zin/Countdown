@@ -1,0 +1,10 @@
+.head {
+  height: 10vh;
+  padding: 1rem 7rem;
+  color: var(--Col-Gray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--Backg);
+  border: 1px solid red;
+}
